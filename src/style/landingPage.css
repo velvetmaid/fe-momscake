@@ -1,0 +1,17 @@
+.bgCakes {
+  border: 8px solid #d142b7;
+  height: 100vh;
+  background: url(../assets/img/bg.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  width: 6rem;
+}
+
+.navbar {
+  width: 80%;
+  justify-content: center;
+  border-radius: 100px;
+}
