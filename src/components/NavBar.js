@@ -5,10 +5,9 @@ const NavBar = () => {
   return (
     <Navbar
       style={{ marginTop: 30 }}
-      className="mx-auto"
+      className="mx-auto text-white"
       collapseOnSelect
       expand="lg"
-      bg="dark"
       variant="dark"
     >
       <Container>

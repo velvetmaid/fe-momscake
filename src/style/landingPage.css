@@ -1,3 +1,15 @@
+@font-face {
+  font-family: "Ruthie"; /*Can be any text*/
+  src: local("Ruthie-Reguler"),
+    url("../fonts/Ruthie-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Abril Fatface"; /*Can be any text*/
+  src: local("AbrilFatface"),
+    url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
+}
+
 .bgCakes {
   border: 8px solid #d142b7;
   height: 100vh;
@@ -6,18 +18,20 @@
   background-position: center;
 }
 
+/* Navbar */
 .logo {
   width: 8rem;
 }
 
 .navbar {
+  background-color: #d142b7;
   width: 80%;
   justify-content: center;
   border-radius: 100px;
   font-family: "Freestyle Script";
   font-size: 5em;
   height: 1.1em;
-  word-spacing: 3rem;
+  word-spacing: 3em;
 }
 
 @media only screen and (max-width: 968px) {
@@ -28,6 +42,31 @@
 
 @media only screen and (max-width: 968px) {
   .bgCakes {
-    height: 220vh;
+    height: auto;
   }
 }
+/* End of navbar */
+
+/* Intorduction */
+.intro {
+  height: 45%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+}
+
+.title-w {
+  font-size: 4em;
+  font-family: Ruthie;
+}
+
+.title-d {
+  font-size: 5em;
+  font-family: Abril Fatface;
+}
+
+.title-w,
+.title-d {
+  text-align: center;
+}
+/* End of Introduction */
