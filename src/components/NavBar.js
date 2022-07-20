@@ -4,6 +4,7 @@ import logo from "../assets/img/logo.png";
 const NavBar = () => {
   return (
     <Navbar
+      style={{ marginTop: 30 }}
       className="mx-auto"
       collapseOnSelect
       expand="lg"
@@ -21,12 +22,6 @@ const NavBar = () => {
             <Nav.Link href="#pricing">Product</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href="#about">About</Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link href="#deets">More deets</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Dank memes
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
