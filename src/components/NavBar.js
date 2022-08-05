@@ -5,18 +5,20 @@ const NavBar = () => {
   return (
     <Navbar
       style={{ marginTop: 30 }}
-      className="mx-auto text-white"
+      className="mx-auto"
       collapseOnSelect
       expand="lg"
-      variant="dark"
     >
-      <Container>
+      <Container className="justify-content-center">
         <Navbar.Brand href="#home">
           <img className="logo" src={logo} alt="Logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
+        <Navbar.Collapse
+          className="justify-content-center"
+          id="responsive-navbar-nav"
+        >
+          <Nav className="ml-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#pricing">Product</Nav.Link>
             <Nav.Link href="#contact">Contact</Nav.Link>

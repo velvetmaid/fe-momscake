@@ -7,7 +7,7 @@ import "./fonts/Ruthie-Regular.ttf";
 function App() {
   return (
     <div>
-      <div className="bgCakes">
+      <div className="jumbotron bgCakes">
         <NavBar />
         <div className="intro">
           <Container className="text-white d-flex justify-content-center align-items-center">

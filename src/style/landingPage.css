@@ -11,11 +11,16 @@
 }
 
 .bgCakes {
-  border: 8px solid #d142b7;
+  border: 8px solid #ffffff;
+  position: relative;
   height: 100vh;
   background: url(../assets/img/bg.jpeg);
+  content: "";
   background-size: cover;
   background-position: center;
+  -webkit-box-shadow: inset 0px 50px 100px 0px rgba(0, 0, 0, 1);
+  -moz-box-shadow: inset 0px 50px 100px 0px rgba(0, 0, 0, 1);
+  box-shadow: inset 0px 50px 100px 0px rgba(0, 0, 0, 1);
 }
 
 /* Navbar */
@@ -24,9 +29,9 @@
 }
 
 .navbar {
-  background-color: #d142b7;
-  width: 80%;
-  justify-content: center;
+  background-color: #e6b6f4;
+  color: #feff9c;
+  width: 70%;
   border-radius: 100px;
   font-family: "Freestyle Script";
   font-size: 5em;
@@ -34,14 +39,19 @@
   word-spacing: 3em;
 }
 
-@media only screen and (max-width: 968px) {
-  .navbar {
-    height: auto;
+.navbarCollapse {
+  flex-grow: 0 !important;
+  justify-content: center !important;
+}
+
+@media only screen and (max-width: 1280px) {
+  .bgCakes {
+    height: 100vh;
   }
 }
 
-@media only screen and (max-width: 968px) {
-  .bgCakes {
+@media only screen and (max-width: 1280px) {
+  .navbar {
     height: auto;
   }
 }
@@ -49,24 +59,31 @@
 
 /* Intorduction */
 .intro {
-  height: 45%;
+  height: 50%;
   display: flex;
-  justify-content: end;
+  justify-content: center;
   align-items: end;
 }
 
 .title-w {
-  font-size: 4em;
   font-family: Ruthie;
 }
 
 .title-d {
-  font-size: 5em;
   font-family: Abril Fatface;
 }
 
 .title-w,
 .title-d {
+  font-size: 2em;
   text-align: center;
+  color: #feff9c;
+}
+
+@media only screen and (min-width: 1280px) {
+  .title-w,
+  .title-d {
+    font-size: 5rem;
+  }
 }
 /* End of Introduction */
