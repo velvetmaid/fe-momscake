@@ -3,12 +3,7 @@ import logo from "../assets/img/logo.png";
 
 const NavBar = () => {
   return (
-    <Navbar
-      style={{ marginTop: 30 }}
-      className="mx-auto"
-      collapseOnSelect
-      expand="lg"
-    >
+    <Navbar className="mx-auto" collapseOnSelect expand="lg">
       <Container className="justify-content-center">
         <Navbar.Brand href="#home">
           <img className="logo" src={logo} alt="Logo" />

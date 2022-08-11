@@ -28,14 +28,15 @@
   width: 8rem;
 }
 
+.navbar-light .navbar-nav .nav-link a {
+  color: none !important;
+}
+
 .navbar {
-  background-color: #e6b6f4;
-  color: #feff9c;
-  width: 70%;
-  border-radius: 100px;
+  background-color: rgba(230, 182, 244, 0.803);
   font-family: "Freestyle Script";
   font-size: 5em;
-  height: 1.1em;
+  height: 1.5em;
   word-spacing: 3em;
 }
 
