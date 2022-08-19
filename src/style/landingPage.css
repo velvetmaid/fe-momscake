@@ -10,8 +10,15 @@
     url("../fonts/AbrilFatface-Regular.ttf") format("truetype");
 }
 
-.bgCakes {
+:root {
+  --primary: #ffb7f1;
+}
+
+.navInt {
   border: 8px solid #ffffff;
+}
+
+.bgCakes {
   position: relative;
   height: 100vh;
   background: url(../assets/img/bg.jpeg);
@@ -22,41 +29,6 @@
   -moz-box-shadow: inset 0px 50px 100px 0px rgba(0, 0, 0, 1);
   box-shadow: inset 0px 50px 100px 0px rgba(0, 0, 0, 1);
 }
-
-/* Navbar */
-.logo {
-  width: 8rem;
-}
-
-.navbar-light .navbar-nav .nav-link a {
-  color: none !important;
-}
-
-.navbar {
-  background-color: rgba(230, 182, 244, 0.803);
-  font-family: "Freestyle Script";
-  font-size: 5em;
-  height: 1.5em;
-  word-spacing: 3em;
-}
-
-.navbarCollapse {
-  flex-grow: 0 !important;
-  justify-content: center !important;
-}
-
-@media only screen and (max-width: 1280px) {
-  .bgCakes {
-    height: 100vh;
-  }
-}
-
-@media only screen and (max-width: 1280px) {
-  .navbar {
-    height: auto;
-  }
-}
-/* End of navbar */
 
 /* Intorduction */
 .intro {

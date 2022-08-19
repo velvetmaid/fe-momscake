@@ -1,0 +1,34 @@
+/* Navbar */
+.logo {
+  width: 8rem;
+}
+
+.navbar-light .navbar-nav .nav-link a {
+  color: none !important;
+}
+
+.nav {
+  background-color: rgba(230, 182, 244, 0.803);
+  font-family: "Freestyle Script";
+  font-size: 5em;
+  height: 1.5em;
+  word-spacing: 3em;
+}
+
+.navbarCollapse {
+  flex-grow: 0 !important;
+  justify-content: center !important;
+}
+
+@media only screen and (max-width: 1280px) {
+  .bgCakes {
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .navbar {
+    height: auto;
+  }
+}
+/* End of navbar */
