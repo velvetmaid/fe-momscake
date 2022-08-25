@@ -1,14 +1,14 @@
 {
-  "main.css": "/static/css/main.acb090f6.chunk.css",
-  "main.js": "/static/js/main.4f7cf865.chunk.js",
-  "main.js.map": "/static/js/main.4f7cf865.chunk.js.map",
-  "static/js/1.708b07f8.chunk.js": "/static/js/1.708b07f8.chunk.js",
-  "static/js/1.708b07f8.chunk.js.map": "/static/js/1.708b07f8.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/media/App.css": "/static/media/img-2.4143d240.jpg",
-  "static/css/main.acb090f6.chunk.css.map": "/static/css/main.acb090f6.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.4cfae622863410d761156c1c057696f3.js": "/precache-manifest.4cfae622863410d761156c1c057696f3.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/momscake/static/css/main.2aaa3b72.chunk.css",
+  "main.js": "/momscake/static/js/main.8632befb.chunk.js",
+  "main.js.map": "/momscake/static/js/main.8632befb.chunk.js.map",
+  "static/js/1.708b07f8.chunk.js": "/momscake/static/js/1.708b07f8.chunk.js",
+  "static/js/1.708b07f8.chunk.js.map": "/momscake/static/js/1.708b07f8.chunk.js.map",
+  "runtime~main.js": "/momscake/static/js/runtime~main.ef81dfa0.js",
+  "runtime~main.js.map": "/momscake/static/js/runtime~main.ef81dfa0.js.map",
+  "static/media/App.css": "/momscake/static/media/img-2.4143d240.jpg",
+  "static/css/main.2aaa3b72.chunk.css.map": "/momscake/static/css/main.2aaa3b72.chunk.css.map",
+  "index.html": "/momscake/index.html",
+  "precache-manifest.562eaf3bc2711d66ff71a09246c72ee5.js": "/momscake/precache-manifest.562eaf3bc2711d66ff71a09246c72ee5.js",
+  "service-worker.js": "/momscake/service-worker.js"
 }
