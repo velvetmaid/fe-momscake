@@ -17,7 +17,7 @@ function Navbar({ toggle }) {
     <>
       <Nav>
         <NavbarContainer>
-          <NavLogo to="/">Menu</NavLogo>
+          <NavLogo to="/">HOME</NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
